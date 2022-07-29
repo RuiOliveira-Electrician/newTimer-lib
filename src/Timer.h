@@ -12,8 +12,8 @@ public:
         static const unsigned long minute = 60000;
         static const unsigned long hour = 3600000;
     };
-    Timer(int delay = 1, unsigned long scale = Timer::Scale::second, bool initialState = false);
-    void edit(int delay = 1, unsigned long scale = Timer::Scale::second, bool initialState = false);
+    Timer(int delay, unsigned long scale, bool initialState);
+    void edit(int delay, unsigned long scale, bool initialState);
     unsigned long getIntervalInMillis();
     unsigned long getTimePassedInMillis();
     unsigned long getTimePassedByScale();

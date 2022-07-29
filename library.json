@@ -1,6 +1,6 @@
 {
   "name":"newTimer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":"Timer Library. Supports Arduino AVR, SAM, STM32, ESP8266, ESP32 and SAMD21 microcontrollers.",
   "keywords":"timer,ESP,Arduino",
   "authors":
