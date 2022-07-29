@@ -1,12 +1,12 @@
 # timer-lib
-![License](https://img.shields.io/github/license/rui-oliveira-tech/timer-lib)
-[![GitHub release](https://img.shields.io/github/release/rui-oliveira-tech/timer-lib.svg)](https://github.com/rui-oliveira-tech/timer-lib/releases)
+![License](https://img.shields.io/github/license/rui-oliveira-tech/newTimer-lib)
+[![GitHub release](https://img.shields.io/github/release/rui-oliveira-tech/newTimer-lib.svg)](https://github.com/rui-oliveira-tech/newTimer-lib/releases)
 
 Timer Library. Supports Arduino AVR, SAM, STM32, ESP8266, ESP32 and SAMD21 microcontrollers.
 
 ## Installing
 
-Download the latest version from the [release](https://github.com/rui-oliveira-tech/timer-lib/releases) section. Or even better use the builtin Library Manager in the Arduino IDE and search for "timer-lib".
+Download the latest version from the [release](https://github.com/rui-oliveira-tech/newTimer-lib/releases) section. Or even better use the builtin Library Manager in the Arduino IDE and search for "newTimer-lib".
 
 The downloaded code can be included as a new library into the IDE selecting the menu:
 
@@ -14,7 +14,7 @@ The downloaded code can be included as a new library into the IDE selecting the 
  Sketch / include Library / Add .Zip library
 ```
 
-The library is also available on [PlatformIO](https://platformio.org/lib/show/rui-oliveira-tech/timer-lib). You can install it by running: `pio lib install "rui-oliveira-tech/timer-lib"`. 
+The library is also available on [PlatformIO](https://platformio.org/lib/show/rui-oliveira-tech/newTimer). You can install it by running: `pio lib install "rui-oliveira-tech/newTimer"`. 
 
 ## Getting Started
 
@@ -46,19 +46,13 @@ true / false
 ## Important Functions:
 
 ```ino
-Timer.getIntervalInMillis();
-
-Timer.getTimePassedInMillis();
-
-Timer.getTimePassedByScale();
-
 Timer.hasEndedDelay();
 
 Timer.reset();
 
 Timer.force();
 
-Timer.debug();
+Timer.edit(delay, scale, initialState);
 ```
 #### Example:
 
@@ -75,6 +69,7 @@ void loop()
 {
   if (newTimer.hasEndedDelay())
   {
+    Timer.edit(1, Timer::Scale::minute, false);
     newTimer.reset();
   }
 }
@@ -88,6 +83,8 @@ Timer.getIntervalInMillis();
 Timer.getTimePassedInMillis();
 
 Timer.getTimePassedByScale();
+
+Timer.debug();
 ```
 
 ## License
