@@ -1,6 +1,6 @@
 # timer-lib
 ![License](https://img.shields.io/github/license/rui-oliveira-tech/newTimer-lib)
-[![GitHub release](https://img.shields.io/github/release/rui-oliveira-tech/timer-lib.svg)](https://github.com/rui-oliveira-tech/timer-lib/releases)
+[![GitHub release](https://img.shields.io/github/release/rui-oliveira-tech/newTimer-lib.svg)](https://github.com/rui-oliveira-tech/newTimer-lib/releases)
 
 Timer Library. Supports Arduino AVR, SAM, STM32, ESP8266, ESP32 and SAMD21 microcontrollers.
 
