@@ -1,4 +1,4 @@
-# timer-lib
+# newTimer-lib
 ![License](https://img.shields.io/github/license/rui-oliveira-tech/newTimer-lib)
 [![GitHub release](https://img.shields.io/github/release/rui-oliveira-tech/newTimer-lib.svg)](https://github.com/rui-oliveira-tech/newTimer-lib/releases)
 
