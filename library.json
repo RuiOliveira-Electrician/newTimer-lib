@@ -1,0 +1,26 @@
+{
+  "name":"newTimer",
+  "version": "1.0.0",
+  "description":"Timer Library. Supports Arduino AVR, SAM, STM32, ESP8266, ESP32 and SAMD21 microcontrollers.",
+  "keywords":"timer,ESP,Arduino",
+  "authors":
+  {
+    "name": "Rui Oliveira",
+    "email": "hire@rui-oliveira.com",
+    "url": "https://www.rui-oliveira.com/",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/rui-oliveira-tech/newTimer-lib.git"
+  },
+  
+  "license": "MIT",
+  "dependencies": {
+  },
+  "frameworks": "arduino",
+  "platforms": "*",
+  "build": {
+  }
+}
